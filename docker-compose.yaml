@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    volumes:
+      - ./material_aula:/material_aula
+    ports:
+      - 8000:8000

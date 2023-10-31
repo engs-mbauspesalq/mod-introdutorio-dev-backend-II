@@ -1,0 +1,160 @@
+[
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 1,
+        "fields": {
+            "nome": "Aluroni"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 2,
+        "fields": {
+            "nome": "Hamburgueria Lura"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 3,
+        "fields": {
+            "nome": "Obi-Wan Kenobi Sushi"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 4,
+        "fields": {
+            "nome": "Neo Trinity Vegan Foods"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 5,
+        "fields": {
+            "nome": "Lyllys Cafe"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 6,
+        "fields": {
+            "nome": "Sugiro Sushi"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 7,
+        "fields": {
+            "nome": "Sugiro Sushi"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 8,
+        "fields": {
+            "nome": "Cantina da escola"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 9,
+        "fields": {
+            "nome": "Cantina da escola"
+        }
+    },
+    {
+        "model": "restaurantes.restaurante",
+        "pk": 10,
+        "fields": {
+            "nome": "Lanchonete Agarikov"
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 1,
+        "fields": {
+            "nome": "Pizza Toscana",
+            "tag": "Italiana",
+            "imagem": "img.jpeg",
+            "descricao": "Mais uma tradição da Itália, a Toscana da Rede Leve Pizza com muita calabresa ralada e bacon vai levar um sabor diferenciado para sua mesa.",
+            "restaurante": 1
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 2,
+        "fields": {
+            "nome": "Macarrão",
+            "tag": "Massas",
+            "imagem": "img.jpeg",
+            "descricao": "Carbonara, é uma receita tradicional italiana de massa. Acredita-se que tenha sido uma receita apreciada pelos preparadores de carvão vegetal (carbinai) dos montes apeninos, na região italiana da Úmbria.",
+            "restaurante": 1
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 3,
+        "fields": {
+            "nome": "X Salada",
+            "tag": "Americana",
+            "imagem": "img.jpeg",
+            "descricao": "Sanduíche com hambúrguer e queijo acompanhado com salada.",
+            "restaurante": 2
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 4,
+        "fields": {
+            "nome": "X Tudo",
+            "tag": "Americana",
+            "imagem": "img.jpeg",
+            "descricao": "Sanduíche com muita carne e tudo que tiver disponível na cozinha.",
+            "restaurante": 2
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 5,
+        "fields": {
+            "nome": "Sushi",
+            "tag": "Japonesa",
+            "imagem": "img.jpeg",
+            "descricao": "Iguaria de origem japonesa, caracterizado por ser feito de arroz temperado, enrolado em peixe cru ou frutos do mar frescos, vegetais, frutas, ovos e algas.",
+            "restaurante": 3
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 6,
+        "fields": {
+            "nome": "Temaki",
+            "tag": "Japonesa",
+            "imagem": "img.jpeg",
+            "descricao": "O clássico arroz japonês acompanhado de peixes, alga marinha ou verduras ganhou o paladar do brasileiro.",
+            "restaurante": 3
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 7,
+        "fields": {
+            "nome": "Caldo",
+            "tag": "Caldos",
+            "imagem": "img.jpeg",
+            "descricao": "A sopa vai para o prato com pedaços de legumes, hortaliças ou carnes. Também pode entrar o arroz ou o macarrão,ingredientes que dão sustança.",
+            "restaurante": 4
+        }
+    },
+    {
+        "model": "restaurantes.prato",
+        "pk": 8,
+        "fields": {
+            "nome": "Feijoada Smith",
+            "tag": "Mineira",
+            "imagem": "img.jpeg",
+            "descricao": "A feijoada é um dos pratos típicos mais conhecidos e populares da culinária brasileira.",
+            "restaurante": 4
+        }
+    }
+]
