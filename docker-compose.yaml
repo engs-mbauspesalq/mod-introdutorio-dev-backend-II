@@ -1,9 +1,10 @@
-version: "3.8"
+version: "3.6"
 
 services:
   api:
     build: .
     volumes:
-      - ./material_aula:/material_aula
+      - ./aula:/aula
     ports:
       - 8000:8000
+      - 8080:8080
